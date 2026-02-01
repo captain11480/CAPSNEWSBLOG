@@ -1,0 +1,127 @@
+/* BODY & GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #80b8e0, #28b09c);
+}
+
+/* NAVBAR */
+.navbar {
+    /* LOGO IN NAVBAR */
+.logo-area {
+    display: flex;
+    align-items: center;  /* vertically center logo & text */
+    gap: 12px;            /* space between logo and text */
+    font-weight: bold;
+    font-size: 22px;
+    color: #1a237e;
+}
+
+.logo-img {
+    width: 50px;          /* logo width */
+    height: 50px;         /* logo height */
+    object-fit: contain;   /* ensures aspect ratio is correct */
+}
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #34ea0b;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #101eb8;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+/* NAV LINKS */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #1a237e;
+}
+
+
+.container {
+    padding: 40px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #1a237e;
+    margin-bottom: 40px;
+}
+
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.news-card {
+    background: #62e3bc;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    padding: 15px;
+}
+
+.news-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.news-card h3 {
+    margin: 15px 0 10px;
+}
+
+.news-card p {
+    color: #555;
+    font-size: 14px;
+}
+
+.news-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #1a237e;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.news-card a:hover {
+    background: #0d47a1;
+}
+
+.footer {
+    background: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
